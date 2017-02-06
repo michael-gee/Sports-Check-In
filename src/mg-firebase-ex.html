@@ -1,0 +1,21 @@
+<!--
+# Default firebase configuration file
+# Go to the "Auth" section in your firebase console
+# And click on the "CONFIGURATION WEB" link, to get the configuration
+-->
+
+<dom-module id="mg-firebase">
+	<template>
+		<firebase-app id="app"
+	  	api-key="YOUR_API_KEY"
+		  auth-domain="YOUR_AUTH_DOMAIN"
+	  	database-url="YOUR_DATABASE_URL"
+	  	storage-bucket="YOUR_DATABASE_STORAGE_BUCKET">
+		</firebase-app>
+	</template>
+	<script>
+		Polymer({
+			is: 'mg-firebase'
+		});
+	</script>
+</dom-module>
